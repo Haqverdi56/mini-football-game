@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.football {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.game-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    height: 100%;
+    width: 41rem;
+    height: 31rem;
+    position: relative;
+}
+
+.door {
+    width: 2rem;
+    height: 12rem;
+    border: 1px solid black;
+}
+
+.ball {
+    width: 5px;
+    height: 5px;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    /* left: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.game-buttons button{
+    padding: 1rem 1.5rem;
+}
+
+.score-div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    left: 23rem;
+    border: 1px solid black;
+}
